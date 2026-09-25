@@ -1325,7 +1325,7 @@ Sticky Header
 }
 
 .mobile-menu .upper-box {
-    background-color: var(--brown-dark);
+    background-color: #fff0d7;
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1346,7 +1346,7 @@ Sticky Header
     right: -5px;
     text-align: center;
     font-size: 18px;
-    color: #ffffff;
+    color: var(--brown-dark);
     height: 30px;
     width: 30px;
     line-height: 30px;
@@ -3472,9 +3472,10 @@ Sticky Header
 
 @media(max-width:600px) {
 
-  .hero-bg {
+    .hero-bg {
         background: url("../images/banner-sm.webp") center/cover no-repeat
     }
+
     .container {
         width: calc(100% - 28px)
     }
