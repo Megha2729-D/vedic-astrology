@@ -59,7 +59,7 @@ p {
     width: 100%;
     min-width: 300px;
     z-index: 99;
-    background-color: #ffffff;
+    background-color: #fff2db;
 }
 
 .mobile-menu-visible .page-wrapper {
@@ -1957,10 +1957,6 @@ Sticky Header
     padding: 60px 0
 }
 
-.about {
-    background: #fff
-}
-
 /* .about-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -2721,10 +2717,6 @@ Sticky Header
 
 /* zodiac-end */
 
-.gallery {
-    background: #fff
-}
-
 .gallery-head {
     display: flex;
     width: 100%;
@@ -2976,7 +2968,6 @@ Sticky Header
 }
 
 .faq {
-    background: #fff;
     overflow: hidden;
 }
 
@@ -3058,7 +3049,7 @@ Sticky Header
 }
 
 .faq-item.active .faq-answer {
-    max-height: 200px;
+    max-height: 200px;  
 }
 
 .faq-item.active .faq-answer p {
@@ -4221,7 +4212,6 @@ Sticky Header
 
 .why-section {
     padding: 70px 0;
-    background: #fff;
 }
 
 /* .why-grid {
